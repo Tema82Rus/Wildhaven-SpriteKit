@@ -17,7 +17,7 @@ final class GameScene: SKScene {
         backgroundColor = .systemGray
         anchorPoint = CGPoint(x: 0.5, y: 0.5)
         square.position = .zero
-        square.anchorPoint = .zero
+        square.anchorPoint = CGPoint(x: 0.5, y: 0.5)
         if square.parent == nil {
             addChild(square)
         }
